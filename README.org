@@ -1,0 +1,18 @@
+#+TITLE: Emacs Dynamic Module Sample
+* Requires
+- cmake
+- make
+- libsndfile
+- portaudio
+- portaudiocpp
+
+* build
+#+BEGIN_SRC bash
+    git clone git@github.com:masfj/DynamicModuleSample.git
+    cd DynamicModuleSample
+    mkdir build
+    cd build
+    cmake ../
+    make -j4
+#+END_SRC
+
